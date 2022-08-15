@@ -29,3 +29,9 @@ li2.innerHTML = "It usually searches for insects on the underside of leaves of o
 
 ul.prepend(li1);
 ul.append(li2);
+
+const ancor = document.createElement("a");
+ancor.innerHTML = "clickhere";
+ancor.setAttribute("href", "https://en.wikipedia.org/wiki/Multicoloured_tanager");
+ul.after(ancor);
+
